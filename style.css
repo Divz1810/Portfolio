@@ -1,0 +1,397 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.FirstPage{
+    position: relative;
+    text-align: center;
+    top:0;
+    overflow: hidden;
+}
+.fit{
+    width: 1535px;
+    height: 100vh;
+}
+
+.FirstPage h1{
+    position: absolute;
+    top:40%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    z-index:2;
+    color: #34495e;
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+} 
+
+.move{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    z-index:2;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    color: #34495e;
+    font-weight: 100;
+}
+.move:before{
+    content:'';
+    animation: animate 2s infinite;
+}
+
+@keyframes animate{
+    20%{
+        content:'Student';
+    }
+    60%{
+        content: 'Web Developer';
+    }
+    100%{
+        content: 'Software Engineer';
+    }
+}
+
+.FirstPage ul{
+    list-style:none;
+    margin-top:20px;
+    color: black;
+    position: absolute;
+    top:5px;
+    right:6px;
+}
+.FirstPage li{
+    display: inline-block;
+}
+
+.FirstPage a{
+    text-decoration: none;
+    width: 100px;
+    padding: 10px;
+    color:black;
+    background-color: white;
+    border-radius: 5px;
+}
+.AboutMe{
+    position: relative;
+     display: inline-grid;
+     grid-template-columns: 40% 50%;
+     text-align: left;
+     align-items: center;
+     padding: 25px 45px 50px;
+     height: 750px;
+     overflow:hidden;
+}
+.AboutMe img{
+    margin-top:20px;
+    margin-left: 150px;
+    height:550px;
+    width: 450px;
+}
+.me{
+    padding-left:100px;
+}
+
+.me h2{
+    font-size:40px;
+}
+.me h3{
+    font-size: 30px;
+    color: #34495e;
+}
+.me p{
+    font-size: 20px;
+    line-height: 150%;
+    color: rgb(170, 165, 165);
+}
+
+.education{
+    height:500px;
+    width: 100vw;
+}
+
+
+.college_Name{
+    display: flex;
+}
+.college_Name h2{
+    padding-top: 30px;
+    font-size:25px ;
+    color: #575e64;
+}
+
+.material-icons{
+    font-size:25px ;
+    color: #34495e;
+    padding-top: 30px;
+}
+
+.degree{
+    padding-left: 30px; 
+    padding-top: 5px;
+    font-size: 17px;
+}
+.cgpa{
+    padding-left: 30px;
+    padding-top: 5px;
+    font-size: 10px;
+}
+.year{
+    padding-left: 30px;
+    padding-top: 5px;
+    font-size: 10px;
+}
+
+.skills{
+    height: 600px;
+    width: 100vw;
+    background-color: rgb(230, 225, 225);
+    overflow:hidden;
+}
+.heading h1{
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Fredoka One', cursive;
+    font-size: 30px;
+    padding-top: 40px;
+    padding-left: 300px;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 300px ;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    color: #34495e;
+}
+
+.bar{
+    height: 30px;
+    width: 800px;
+    background-color: white;
+    margin-left: 300px;
+}
+
+.color1, .color2, .color3, .color4{
+    height: 30px;
+    background-color: rgb(190, 181, 181);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color1{
+    width: 640px;
+    padding-left: 80px;
+}
+
+.color2{
+    width: 560px;
+    padding-left: 150px;
+}
+
+.color3{
+    width: 560px;
+    padding-left: 150px;
+}
+
+.color4{
+    width: 480px;
+    padding-left: 230px;
+}
+
+.projects{
+    overflow:hidden;
+    height: 1150px;
+    width: 100vw;
+}
+
+
+.project-desc{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.heading2 h1{
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Fredoka One', cursive;
+    font-size: 40px;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.instagramLiker, 
+.problemSolver,
+.jiraAppTasker,
+.excelClone{
+    height: 400px;
+    width: 450px;
+    background-color: rgb(247, 239, 239);
+    margin-top: 80px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px 1px rgb(185, 177, 177);
+}
+
+.instagramLiker h4, 
+.problemSolver h4,
+.jiraAppTasker h4,
+.excelClone h4{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 30px;
+    color:#34495e;
+    font-family: 'Uchen', serif;
+}
+
+.desc{
+    padding-top: 15px;
+    color: gray;
+    text-align: center; 
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.image{
+    padding-left: 170px;
+    padding-top: 30px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-size: contain;
+}
+.project-desc img{
+    height:100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.tech{
+    font-size: 18px;
+    text-align: center;
+    padding-top: 8px;
+}
+.links{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+
+.github,
+.website{
+    font-size: 20px;
+    color:#34495e;
+    text-decoration: underline;
+}
+
+
+.instagramLiker:hover,
+.problemSolver:hover,
+.jiraAppTasker:hover,
+.excelClone:hover{
+    background-color: rgb(220, 239, 247);
+}
+
+
+.contacts{
+    height: 800px;
+    width: 100vw;
+    overflow:hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.heading3{
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Fredoka One', cursive;
+    font-size: 40px;
+    padding-top: 60px;
+    text-align: center;
+    padding-left: 20px;
+}
+.line{
+    font-size: 20px;
+    color: gray;
+    text-align: center;
+    padding-top: 7px;
+    font-family: 'Caveat', cursive;
+    padding-left: 20px;
+}
+
+.contact img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-size: contain;
+    margin-top: 40px;
+    margin-right: 30px;
+}
+
+
+.insta2{
+    margin-left: 150px;
+}
+
+hr{
+    margin-top: 20px;
+    color: gray;
+}
+
+.messageHere{
+    padding-top: 15px;
+    color: #34495e;
+    margin-left: 150px;
+    font-family: 'Lobster', cursive;
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+
+.contact-form{
+    height:500px;
+   background-color: #e7f2fd;
+   padding-top: 20px;
+   width: 40vw;
+
+}
+
+.form-control{
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 16px;
+    padding-left: 20px;
+}
+
+input{
+    height: 45px;
+}
+
+form .submit{
+    background: #ff5722;
+    border-color: transparent;
+    color:#fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+form .submit:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+
