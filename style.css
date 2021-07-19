@@ -21,9 +21,11 @@
     left:50%;
     transform: translate(-50%, -50%);
     z-index:2;
-    color: #34495e;
+    /* color: #34495e; */
+    color: rgb(80, 8, 8);
     font-size: 50px;
-    font-family: 'Lobster', cursive;
+    /* font-family: 'Lobster', cursive; */
+    font-family: 'Libre Baskerville', serif;
 } 
 
 .move{
@@ -34,6 +36,7 @@
     z-index:2;
     font-size: 30px;
     font-family: 'Dancing Script', cursive;
+    /* font-family: 'Libre Baskerville', serif; */
     color: #34495e;
     font-weight: 100;
 }
@@ -283,11 +286,12 @@
     padding-top: 40px;
 }
 
-.github,
-.website{
+.github a,
+.website a{
     font-size: 20px;
     color:#34495e;
-    text-decoration: underline;
+    text-decoration: none;
+    padding-left: 100px;
 }
 
 
@@ -300,7 +304,7 @@
 
 
 .contacts{
-    height: 800px;
+    height: 850px;
     width: 100vw;
     overflow:hidden;
     display: flex;
@@ -356,42 +360,101 @@ hr{
 
 
 .contact-form{
-    height:500px;
+    height:450px;
    background-color: #e7f2fd;
    padding-top: 20px;
-   width: 40vw;
+   width: 28vw;
+   box-shadow: 2px 2px 3px 1px rgb(185, 177, 177);
+   margin-left: 50px;
 
 }
 
 .form-control{
-    width: 600px;
-    background: transparent;
-    border: none;
-    outline: none;
-    border-bottom: 1px solid gray;
-    color: #fff;
+    width: 400px;
     font-size: 18px;
     margin-bottom: 16px;
     padding-left: 20px;
 }
 
-input{
-    height: 45px;
+.name,
+.email{
+    height: 35px;
 }
 
-form .submit{
-    background: #ff5722;
+.message{
+    height: 140px;
+}
+
+.submit{
+    background: #34495e;
     border-color: transparent;
-    color:#fff;
-    font-size: 20px;
-    font-weight: bold;
-    letter-spacing: 2px;
-    height: 50px;
-    margin-top: 20px;
+    font-size: 15px;
+    color: white;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 260px;
+    width: 140px;
+    border-radius: 5px;
 }
 
 form .submit:hover{
-    background-color: gray;
+    background-color: black;
     cursor: pointer;
 }
+
+.form-control input,
+.form-control textarea{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    outline: none;
+    border: none;
+}
+
+.form-control label{
+    /* font-family: 'Libre Baskerville', serif; */
+    font-family: 'Zilla Slab', serif;
+    font-weight: 300;
+    color:#34495e;
+}
+
+
+.end{
+    width: 100vw;
+    height: 360px;
+    background-color: rgb(230, 225, 225);
+    text-align: center;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    transform: translate(-50px);
+}
+
+
+.links img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-size: contain;
+    margin-top: 10px;
+    margin-right: 30px;
+    margin-bottom: 60px;
+}
+
+.end h1{
+    padding-top: 20px;
+    font-size: 40px;
+    color: #34495e;
+    font-family: 'Bree Serif', serif;
+    padding-bottom: 10px;
+}
+
+.end p{
+    padding-top: 10px;
+    font-family: 'Libre Baskerville', serif;
+    color: rgb(80, 8, 8);
+}
+
 

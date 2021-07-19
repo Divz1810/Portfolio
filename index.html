@@ -8,12 +8,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+    <script src= "script.js"></script>
+
+    <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+
     <title>My Portfolio</title>
 </head>
 <body>
 
     <Section class= "FirstPage">
-        <img src="images/background1.jpg" class="fit">
+        <img src="images/background1.jpg" alt="background1" class="fit">
         <h1>Divyanshi Mishra</h1>
         <h3><span class="move"></span></h3>
         <!-- <ul>
@@ -26,7 +32,7 @@
 
     <section id=" About">
     <div class="AboutMe" id="ab">
-        <img src= "images/myPhoto.jpg">
+        <img src= "images/myPhoto.jpg" alt="myPhoto">
         <div class="me">
             <h2>Hello!</h2>
             <h3>I am Divyanshi.</h3>
@@ -95,44 +101,44 @@
                 <h6 class= "tech">javascript .puppeteer</h6>
                 <p class="desc">This project opens you instagram account, goes to any page and then likes all the posts of that page.</p>
                 <div class="links">
-                    <div class="github">GitHub</div>
+                    <div class="github"><a href="https://github.com/Divz1810/NIET_DEV/tree/main/folder/lect9_asyncAwait/activity_instagram">GitHub</a></div>
                 </div>
             </div>
 
             <div class="problemSolver">
                 <div class="image">
-                    <img src="./images/hacker.jpg" alt="insta">
+                    <img src="./images/hacker.jpg" alt="hackerrank">
                 </div>
                 <h4>HackerRank Problem Solver</h4>
                 <h6 class= "tech">javascript .puppeteer</h6>
                 <p class="desc">This project opens you hackerRank account, goes to problem Solving section and automatically submits your all questions.</p>
                 <div class="links">
-                    <div class="github">GitHub</div>
+                    <div class="github"><a href="https://github.com/Divz1810/NIET_DEV/tree/main/folder/lect8_Automation/activity">GitHub</a></div>
                 </div>
             </div>
 
             <div class="jiraAppTasker">
                 <div class="image">
-                    <img src="./images/JiraAppLogo.jfif" alt="insta">
+                    <img src="./images/JiraAppLogo.jfif" alt="jira">
                 </div>
                 <h4>Jira App Tasker</h4>
                 <h6 class= "tech">javascript</h6>
                 <p class="desc">This App has the same working as Jira App. This saves your tasks and assign them priorities.</p>
                 <div class="links">
-                    <div a href= "https://github.com/Divz1810/JiraApp" class="github">GitHub</div>
-                    <div a href= "https://divz1810.github.io/JiraApp/" class="website">Website</div>
+                    <div class="github"><a href= "https://github.com/Divz1810/JiraApp">GitHub</a></div>
+                    <div class="website"><a href= "https://divz1810.github.io/JiraApp/" >Website</a></div>
                 </div>
             </div>
 
             <div class="excelClone">
                 <div class="image">
-                    <img src="./images/microsoft-excel.jpg" alt="insta">
+                    <img src="./images/microsoft-excel.jpg" alt="excel">
                 </div>
                 <h4>Excel Clone</h4>
                 <h6 class= "tech">javascript</h6>
                 <p class="desc">This is the clone of microsoft excel. This have all the workings that microsoft does.</p>
                 <div class="links">
-                    <div a href="https://github.com/Divz1810/Excel_clone" class="github">GitHub</div>
+                    <div class="github"><a href="https://github.com/Divz1810/Excel_clone">GitHub</a></div>
                     <!-- <div class="website">Website</div> -->
                 </div>
             </div>
@@ -147,23 +153,42 @@
 
         <h3 class="messageHere">Drop a message here!</h3>
         <div class="contact-form">
-            <form id= "contact-form1" method="post" action="contact-form.php">
-                <input name="name" type="text" class="form-control" placeholder="Your Name" required>
-                <br>
-                <input name="email" type="email" class="form-control" placeholder="Your Email" required>
-                <br>                
-                <textarea name="message" class="form-control" placeholder="Message" row="4" required></textarea>
-                <br>
+            <form id="contact-form1" action="https://formspree.io/f/mrgraoee" method="POST">
+                <div class="form-control">
+                    <label for= "name">Your Name</label>
+                    <input name="name" type="text" class="name" required>
+                </div>
 
-                <input type="submit" class= "form-control submit" value="SEND MESSAGE">
+                <div class="form-control">
+                    <label for= "email">Your E-mail</label>
+                    <input name="email" type="email" class="email" required>
+                </div>
+
+                <div class="form-control">
+                    <label for= "message">Message</label>
+                    <textarea name="message" class="message"  row="10" cols="30" required></textarea>
+                </div>
+
+                <div id="status"></div>
+
+                <input type="submit" class= "submit" value="SEND MESSAGE">
 
             </form>
         </div>
-        <a class="insta2" href=""><img src="images/instaLogo2.png" alt="insta"></a>
-        <a href=""><img src="images/linkedin.png" alt=""></a>
-        <a href=""><img src="images/gmail.png" alt=""></a>
-        <a href=""><img src="images/github-logo.png" alt=""></a>
     </div>
+    </div>
+
+    <div class="end">
+        <h1>Divyanshi Mishra</h1>
+        <p>Thanks for visiting</p>
+        <p>Kindly reach me at any of the below Platform.</p>
+        <div class="links">
+            <a class="insta2" href="https://www.instagram.com/divz_1810/"><img src="images/instaLogo2.png" alt="insta"></a>
+            <a href="https://www.linkedin.com/in/divyanshi-mishra-4b12121b9"><img src="images/linkedin.png" alt="link"></a>
+            <a href="mailto: divya.mishra1899@gmail.com"><img src="images/gmail.png" alt="link"></a>
+            <a href="https://github.com/Divz1810"><img src="images/github-logo.png" alt="link"></a>
+        </div>
+        <p>Designed by Divyanshi with &#10084</p>
     </div>
     
 </body>
