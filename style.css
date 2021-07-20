@@ -23,7 +23,7 @@
     z-index:2;
     /* color: #34495e; */
     color: rgb(80, 8, 8);
-    font-size: 50px;
+    font-size: 3vw;
     /* font-family: 'Lobster', cursive; */
     font-family: 'Libre Baskerville', serif;
 } 
@@ -34,7 +34,7 @@
     left:50%;
     transform: translate(-50%, -50%);
     z-index:2;
-    font-size: 30px;
+    font-size: 2vw;
     font-family: 'Dancing Script', cursive;
     /* font-family: 'Libre Baskerville', serif; */
     color: #34495e;
@@ -57,61 +57,42 @@
     }
 }
 
-.FirstPage ul{
-    list-style:none;
-    margin-top:20px;
-    color: black;
-    position: absolute;
-    top:5px;
-    right:6px;
-}
-.FirstPage li{
-    display: inline-block;
-}
-
-.FirstPage a{
-    text-decoration: none;
-    width: 100px;
-    padding: 10px;
-    color:black;
-    background-color: white;
-    border-radius: 5px;
-}
 .AboutMe{
     position: relative;
      display: inline-grid;
      grid-template-columns: 40% 50%;
      text-align: left;
      align-items: center;
-     padding: 25px 45px 50px;
-     height: 750px;
+     /* padding: 25px 45px 50px; */
+     padding: 1.5vh 2.5vh 2.7vh;
+     height: 100vh;
      overflow:hidden;
 }
 .AboutMe img{
-    margin-top:20px;
-    margin-left: 150px;
-    height:550px;
-    width: 450px;
+    margin-top:1vh;
+    margin-left: 10vw;
+    height:70vh;
+    width: 28vw;
 }
 .me{
-    padding-left:100px;
+    padding-left:8vh;
 }
 
 .me h2{
-    font-size:40px;
+    font-size:5vh;
 }
 .me h3{
-    font-size: 30px;
+    font-size: 3.5vh;
     color: #34495e;
 }
 .me p{
-    font-size: 20px;
+    font-size: 2.5vh;
     line-height: 150%;
     color: rgb(170, 165, 165);
 }
 
 .education{
-    height:500px;
+    height:20vh;
     width: 100vw;
 }
 
@@ -120,35 +101,35 @@
     display: flex;
 }
 .college_Name h2{
-    padding-top: 30px;
-    font-size:25px ;
+    padding-top: 3.5vh;
+    font-size:3.5vh ;
     color: #575e64;
 }
 
 .material-icons{
-    font-size:25px ;
+    font-size:3.5vh ;
     color: #34495e;
-    padding-top: 30px;
+    padding-top: 3.5vh;
 }
 
 .degree{
-    padding-left: 30px; 
-    padding-top: 5px;
-    font-size: 17px;
+    padding-left: 2vw; 
+    padding-top: 1.3vh;
+    font-size: 3vh;
 }
 .cgpa{
-    padding-left: 30px;
-    padding-top: 5px;
-    font-size: 10px;
+    padding-left: 2vw;
+    padding-top: 1.3vh;
+    font-size: 3vh;
 }
 .year{
-    padding-left: 30px;
-    padding-top: 5px;
-    font-size: 10px;
+    padding-left: 2vw;
+    padding-top: 1.3vh;
+    font-size: 3vh;
 }
 
 .skills{
-    height: 600px;
+    height: 80vh;
     width: 100vw;
     background-color: rgb(230, 225, 225);
     overflow:hidden;
@@ -157,25 +138,25 @@
     font-family: 'Abril Fatface', cursive;
     font-family: 'Alfa Slab One', cursive;
     font-family: 'Fredoka One', cursive;
-    font-size: 30px;
-    padding-top: 40px;
-    padding-left: 300px;
+    font-size: 4vh;
+    padding-top: 4.5vh;
+    padding-left: 19vw;
 }
 
 .title{
-    font-size: 20px;
+    font-size: 3vh;
     font-weight: 400;
-    padding-left: 300px ;
-    padding-top: 40px;
-    padding-bottom: 10px;
+    padding-left: 19vw ;
+    padding-top: 4.5vh;
+    padding-bottom: 2vh;
     color: #34495e;
 }
 
 .bar{
-    height: 30px;
-    width: 800px;
+    height: 4vh;
+    width: 55vw;
     background-color: white;
-    margin-left: 300px;
+    margin-left: 19vw;
 }
 
 .color1, .color2, .color3, .color4{
@@ -187,28 +168,28 @@
 }
 
 .color1{
-    width: 640px;
-    padding-left: 80px;
+    width: 44vw;
+    padding-left: 3vw;
 }
 
 .color2{
-    width: 560px;
-    padding-left: 150px;
+    width: 38.5vw;
+    padding-left: 8vw;
 }
 
 .color3{
-    width: 560px;
-    padding-left: 150px;
+    width: 38.5vw;
+    padding-left: 8vw;
 }
 
 .color4{
-    width: 480px;
-    padding-left: 230px;
+    width: 33vw;
+    padding-left: 13vw;
 }
 
 .projects{
     overflow:hidden;
-    height: 1150px;
+    height: 160vh;
     width: 100vw;
 }
 
@@ -223,19 +204,20 @@
     font-family: 'Abril Fatface', cursive;
     font-family: 'Alfa Slab One', cursive;
     font-family: 'Fredoka One', cursive;
-    font-size: 40px;
-    padding-top: 60px;
+    font-size: 5.5vh;
+    padding-top: 7vh;
     text-align: center;
 }
 
 .instagramLiker, 
 .problemSolver,
 .jiraAppTasker,
-.excelClone{
-    height: 400px;
-    width: 450px;
+.excelClone,
+.drum{
+    height: 55vh;
+    width: 28vw;
     background-color: rgb(247, 239, 239);
-    margin-top: 80px;
+    margin-top: 8vh;
     border-radius: 5px;
     box-shadow: 2px 2px 3px 1px rgb(185, 177, 177);
 }
@@ -243,68 +225,70 @@
 .instagramLiker h4, 
 .problemSolver h4,
 .jiraAppTasker h4,
-.excelClone h4{
+.excelClone h4,
+.drum h4{
     text-align: center;
-    padding-top: 50px;
-    font-size: 30px;
+    padding-top: 6vh;
+    font-size: 3.5vh;
     color:#34495e;
     font-family: 'Uchen', serif;
 }
 
 .desc{
-    padding-top: 15px;
+    padding-top: 3vh;
     color: gray;
     text-align: center; 
-    margin-left: 5px;
-    margin-right: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
 }
 
 .image{
-    padding-left: 170px;
-    padding-top: 30px;
-    height: 100px;
-    width: 100px;
+    padding-left: 10.4vw;
+    padding-top: 4vh;
+    height: 15vh;
+    width: 15vw;
     border-radius: 50%;
     background-size: contain;
 }
 .project-desc img{
-    height:100px;
-    width: 100px;
+    height:13.5vh;
+    width: 7vw;
     border-radius: 50%;
 }
 
 .tech{
-    font-size: 18px;
+    font-size: 2.2vh;
     text-align: center;
-    padding-top: 8px;
+    padding-top: 1.3vh;
 }
 .links{
     display: flex;
     justify-content: space-evenly;
-    padding-top: 40px;
+    padding-top: 4.7vh;
 }
 
 .github a,
 .website a{
-    font-size: 20px;
+    font-size: 3vh;
     color:#34495e;
     text-decoration: none;
-    padding-left: 100px;
+    padding-left: 6vw;
 }
 
 
 .instagramLiker:hover,
 .problemSolver:hover,
 .jiraAppTasker:hover,
-.excelClone:hover{
+.excelClone:hover,
+.drum:hover{
     background-color: rgb(220, 239, 247);
 }
 
 
 .contacts{
-    height: 850px;
+    height: 110vh;
     width: 100vw;
     overflow:hidden;
     display: flex;
@@ -315,85 +299,85 @@
     font-family: 'Abril Fatface', cursive;
     font-family: 'Alfa Slab One', cursive;
     font-family: 'Fredoka One', cursive;
-    font-size: 40px;
-    padding-top: 60px;
+    font-size: 5.5vh;
+    padding-top: 5.5vh;
     text-align: center;
-    padding-left: 20px;
+    padding-left: 2.8vw;
 }
 .line{
-    font-size: 20px;
+    font-size: 2.7vh;
     color: gray;
     text-align: center;
-    padding-top: 7px;
+    padding-top: 2vh;
     font-family: 'Caveat', cursive;
-    padding-left: 20px;
+    padding-left: 2.8vw;
 }
 
 .contact img{
-    height: 40px;
-    width: 40px;
+    height: 8vh;
+    width: 8vw;
     border-radius: 50%;
     background-size: contain;
-    margin-top: 40px;
-    margin-right: 30px;
+    margin-top: 8vh;
+    margin-right: 10vw;
 }
 
 
 .insta2{
-    margin-left: 150px;
+    margin-left: 7vw;
 }
 
 hr{
-    margin-top: 20px;
+    margin-top: 3vh;
     color: gray;
 }
 
 .messageHere{
-    padding-top: 15px;
+    padding-top: 3.5vh;
     color: #34495e;
-    margin-left: 150px;
+    margin-left: 140px;
     font-family: 'Lobster', cursive;
     font-family: 'Pacifico', cursive;
-    font-size: 25px;
-    margin-bottom: 20px;
+    font-size: 3.5vh;
+    margin-bottom: 3.5vh;
 }
 
 
 .contact-form{
-    height:450px;
+   height:60vh;
    background-color: #e7f2fd;
-   padding-top: 20px;
+   padding-top: 3.5vh;
    width: 28vw;
    box-shadow: 2px 2px 3px 1px rgb(185, 177, 177);
-   margin-left: 50px;
+   margin-left: 8vh;
 
 }
 
 .form-control{
-    width: 400px;
-    font-size: 18px;
-    margin-bottom: 16px;
-    padding-left: 20px;
+    width: 26.5vw;
+    font-size: 2.7vh;
+    margin-bottom: 2vh;
+    padding-left: 1.6vw;
 }
 
 .name,
 .email{
-    height: 35px;
+    height: 4.5vh;
 }
 
 .message{
-    height: 140px;
+    height: 18vh;
 }
 
 .submit{
     background: #34495e;
     border-color: transparent;
-    font-size: 15px;
+    font-size: 1.8vh;
     color: white;
-    height: 40px;
-    margin-top: 10px;
-    margin-left: 260px;
-    width: 140px;
+    height: 5vh;
+    margin-top: 1vh;
+    margin-left: 17vw;
+    width: 9vw;
     border-radius: 5px;
 }
 
@@ -405,8 +389,8 @@ form .submit:hover{
 .form-control input,
 .form-control textarea{
     width: 100%;
-    padding: 10px;
-    margin-top: 10px;
+    padding: 1vh;
+    margin-top: 1.2vh;
     outline: none;
     border: none;
 }
@@ -421,9 +405,10 @@ form .submit:hover{
 
 .end{
     width: 100vw;
-    height: 360px;
+    height: 50vh;
     background-color: rgb(230, 225, 225);
     text-align: center;
+    overflow: hidden;
 }
 
 .links{
@@ -434,25 +419,25 @@ form .submit:hover{
 
 
 .links img{
-    height: 40px;
-    width: 40px;
+    height: 5vh;
+    width: 5vh;
     border-radius: 50%;
     background-size: contain;
-    margin-top: 10px;
-    margin-right: 30px;
-    margin-bottom: 60px;
+    margin-top: 2vh;
+    margin-right: 2vw;
+    margin-bottom: 7vh;
 }
 
 .end h1{
-    padding-top: 20px;
-    font-size: 40px;
+    padding-top: 4vh;
+    font-size: 6vh;
     color: #34495e;
     font-family: 'Bree Serif', serif;
-    padding-bottom: 10px;
+    padding-bottom: 2vh;
 }
 
 .end p{
-    padding-top: 10px;
+    padding-top: 2vh;
     font-family: 'Libre Baskerville', serif;
     color: rgb(80, 8, 8);
 }
