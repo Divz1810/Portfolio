@@ -149,7 +149,7 @@
 }
 
 .mSkill{
-    margin-left: 150px;
+    margin-left: 10vw;
     margin-top: 70px;
 }
 
@@ -573,16 +573,16 @@ form .submit:hover{
 
     .contact-form{
         margin-left: 80px;
-        width: 300px;
+        width: 260px;
     }
 
     .form-control{
-        width: 270px;
+        width: 230px;
     }
 
     .submit{
         width: 100px;
-        margin-left: 170px;
+        margin-left: 130px;
     }
 
 }
