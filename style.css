@@ -128,22 +128,48 @@
     font-size: 3vh;
 }
 
-.skills{
-    height: 80vh;
+.skills,
+.mySkills{
+    height: 70vh;
     width: 100vw;
     background-color: rgb(230, 225, 225);
     overflow:hidden;
 }
-.heading h1{
+
+.mSkills{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 200px;
+    margin-right: 230px;
+    justify-content: space-evenly;
+}
+
+#skills{
+    overflow: hidden;
+}
+
+.mSkill{
+    margin-left: 150px;
+    margin-top: 70px;
+}
+
+.mSkill img{
+    
+    height: 12vh;
+    width: 6vw;
+    border-radius: 50%;
+    background-size: contain;
+}
+/* .heading h1{
     font-family: 'Abril Fatface', cursive;
     font-family: 'Alfa Slab One', cursive;
     font-family: 'Fredoka One', cursive;
     font-size: 4vh;
     padding-top: 4.5vh;
     padding-left: 19vw;
-}
+} */
 
-.title{
+/* .title{
     font-size: 3vh;
     font-weight: 400;
     padding-left: 19vw ;
@@ -185,7 +211,7 @@
 .color4{
     width: 33vw;
     padding-left: 13vw;
-}
+} */
 
 .projects{
     overflow:hidden;
@@ -195,18 +221,27 @@
 
 
 .project-desc{
-    display: flex;
+    width: 100vw;
     justify-content: space-evenly;
+    display: flex;
     flex-wrap: wrap;
+    overflow: hidden;
 }
 
-.heading2 h1{
+.heading2 h1,
+.heading h1{
     font-family: 'Abril Fatface', cursive;
     font-family: 'Alfa Slab One', cursive;
     font-family: 'Fredoka One', cursive;
     font-size: 5.5vh;
-    padding-top: 7vh;
+    padding-top: 10vh;
     text-align: center;
+    color: rgb(80, 8, 8);
+}
+
+
+.heading h1{
+    padding-top: 5vh !important;
 }
 
 .instagramLiker, 
@@ -220,6 +255,7 @@
     margin-top: 8vh;
     border-radius: 5px;
     box-shadow: 2px 2px 3px 1px rgb(185, 177, 177);
+    overflow: hidden;
 }
 
 .instagramLiker h4, 
@@ -303,6 +339,7 @@
     padding-top: 5.5vh;
     text-align: center;
     padding-left: 2.8vw;
+    color: rgb(80, 8, 8);
 }
 .line{
     font-size: 2.7vh;
@@ -313,7 +350,7 @@
     padding-left: 2.8vw;
 }
 
-.contact img{
+.contacts img{
     height: 8vh;
     width: 8vw;
     border-radius: 50%;
@@ -440,6 +477,114 @@ form .submit:hover{
     padding-top: 2vh;
     font-family: 'Libre Baskerville', serif;
     color: rgb(80, 8, 8);
+}
+
+@media only screen and (max-width:700px){
+    .AboutMe img{
+        margin-top:5vh;
+        margin-left: 10vw;
+        height:26vh;
+        width: 26vw;
+    }
+
+    .AboutMe{
+        display: block;
+    }
+
+    .me h2{
+        font-size:4vh;
+    }
+    .me h3{
+        font-size: 3vh;
+        color: #373b3f;
+    }
+    .me p{
+        font-size: 2.5vh;
+        line-height: 150%;
+        color: rgb(170, 165, 165);
+    }
+
+    .FirstPage img{
+        width: 500px;
+        background-size: contain;
+    }
+
+    .FirstPage h1{
+        font-size: 6vh;
+    }
+    .move{
+        font-size: 3vh;
+    }
+
+    .mSkills{
+        margin-left: 30px;
+        margin-right: 30px;
+
+    }
+    .mSkill{
+        margin-left: 50px;
+    }
+
+    .mSkill img{
+        width: 9vw;
+        height: 7vh;
+    }
+
+    .instagramLiker h4, 
+    .problemSolver h4,
+    .jiraAppTasker h4,
+    .excelClone h4,
+    .drum h4{
+        font-size: 15px;
+    }
+
+    .desc{
+        font-size: 12px;
+    }
+
+    .github a,
+    .website a{
+        font-size: 10px;
+    }
+
+    .instagramLiker, 
+    .problemSolver,
+    .jiraAppTasker,
+    .excelClone,
+    .drum{
+        height: 320px;
+        width: 250px;
+    }
+
+    .projects{
+        height: 320vh;
+    }
+
+    .image img{
+        height: 70px;
+        width: 70px;
+        margin-left: 40px;
+    }
+
+    .github a,
+    .website a{
+        padding-left: 80px;
+    }
+
+    .contact-form{
+        margin-left: 80px;
+        width: 300px;
+    }
+
+    .form-control{
+        width: 270px;
+    }
+
+    .submit{
+        width: 100px;
+        margin-left: 170px;
+    }
+
 }
 
 
