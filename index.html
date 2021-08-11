@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet"> 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
     <script src= "script.js"></script>
 
@@ -18,18 +19,27 @@
 </head>
 <body>
 
+    <nav>
+        <div class= "logo">
+            <p>Divyanshi Mishra</p>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#aboutSection">About</a></li>
+                <li><a href="#skillSection">Skills</a></li>
+                <li><a href="#projectSection">Projects</a></li>
+                <li><a href="#contactSection">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <a name="home"></a>
     <Section class= "FirstPage">
         <img src="images/background1.jpg" alt="background1" class="fit">
         <h1>Divyanshi Mishra</h1>
         <h3><span class="move"></span></h3>
-        <!-- <ul>
-            <li><a href= "#About">About Me</a></li>
-            <li><a href= "#Skill">My skills</a></li>
-            <li><a href= "#">Projects</a></li>
-            <li><a href= "#">Contact</a></li>
-        </ul> -->
     </Section>
 
+    <a name= "aboutSection"></a>
     <section id=" About">
     <div class="AboutMe" id="ab">
         <img src= "images/myPhoto.jpg" alt="myPhoto">
@@ -56,41 +66,42 @@
     </div>
     </section>
 
-    <!-- <section id="skill">
-    <div class="skills">
+    <a name= "skillSection"></a>
+    <section id="skill">
         <div class="heading"><h1>Technical Skills</h1></div>
+    <div class="skills">
         <div class="bars">
             <div class="title"><h4>HTML</h4></div>
             <div class="bar">
-                <div class="color1">80%</div>
+                <div class="color1">90%</div>
             </div>
         </div>
 
         <div class="bars">
             <div class="title"><h4>CSS</h4></div>
             <div class="bar">
-                <div class="color2">70%</div>
+                <div class="color2">80%</div>
             </div>
         </div>
 
         <div class="bars">
             <div class="title"><h4>CORE JAVA</h4></div>
             <div class="bar">
-                <div class="color3">70%</div>
+                <div class="color3">80%</div>
             </div>
         </div>
 
         <div class="bars">
             <div class="title"><h4>JAVASCRIPT</h4></div>
             <div class="bar">
-                <div class="color4">60%</div>
+                <div class="color4">70%</div>
             </div>
         </div>
         
     </div>
-    </section> -->
+    </section>
 
-    <div id= "skills">
+    <!-- <div id= "skills">
         <div class="mySkills">
             <div class="heading"><h1>Skills</h1></div>
             <div class="mSkills">
@@ -122,8 +133,9 @@
             <div class="mSkill"></div>
         </div>
         </div>
-    </div>
+    </div> -->
 
+    <a name="projectSection"></a>
     <div class="projects">
         <div class="heading2"><h1>Projects</h1></div>
         <div class="project-desc">
@@ -192,6 +204,7 @@
     </div>
     </div>
 
+    <a name="contactSection"></a>
     <div class="contacts">
         <div class="contact">
         <h1 class="heading3">Contact Me</h1>
@@ -239,5 +252,8 @@
         </div>
         <p>Designed by Divyanshi with &#10084</p>
     </div>
+
+    <script src="navBar.js"></script>
+    
 </body>
 </html>
