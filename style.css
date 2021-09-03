@@ -90,6 +90,7 @@ nav ul li a{
     text-decoration: none;
     text-transform: uppercase;
     padding: 0px 32px;
+    margin-right: 5px;
 }
 
 nav ul li a:hover {
@@ -172,7 +173,7 @@ nav ul li a:hover {
 }
 
 .skills{
-    height: 70vh;
+    height: 93vh;
     width: 70vw;
     background-color: rgb(230, 225, 225);
     overflow:hidden;
@@ -242,9 +243,10 @@ nav ul li a:hover {
     padding-left: 13vw;
 }
 
+
 .projects{
     overflow:hidden;
-    height: 160vh;
+    height: 220vh;
 }
 
 
@@ -397,13 +399,13 @@ hr{
     margin-top: 3vh;
     color: gray;
     overflow:hidden;
-    width: 40vw;
+    width: 700px;
 }
 
 .messageHere{
     padding-top: 3.5vh;
     color: #34495e;
-    margin-left: 12vw;
+    margin-left: 16vw;
     font-family: 'Lobster', cursive;
     font-family: 'Pacifico', cursive;
     font-size: 3.5vh;
@@ -417,7 +419,7 @@ hr{
    padding-top: 3.5vh;
    width: 28vw;
    box-shadow: 2px 2px 3px 1px rgb(185, 177, 177);
-   margin-left: 7vw;
+   margin-left: 11vw;
    overflow:hidden;
 
 }
@@ -512,7 +514,7 @@ form .submit:hover{
     color: rgb(80, 8, 8);
 }
 
-@media only screen and (max-width:700px){
+@media only screen and (max-width:750px){
     .AboutMe img{
         margin-top:5vh;
         margin-left: 10vw;
@@ -623,6 +625,7 @@ form .submit:hover{
 @media only screen and (max-width:1535px){
     nav ul li a{
         padding: 0px 15px;
+        margin-right: 5px;
     }
 
     .FirstPage img{
